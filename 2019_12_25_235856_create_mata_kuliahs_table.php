@@ -14,7 +14,7 @@ class CreateMataKuliahsTable extends Migration
     public function up()
     {
         Schema::create('mta_kuliahs', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->bigIncrements('kd');
             $table->timestamps();
         });
     }
